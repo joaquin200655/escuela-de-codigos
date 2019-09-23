@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>formulario</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- titulo de pagina h1 -->
+    <h1>formulario</h1>
+    <!-- primera linea -->
+    <form>
+        <label>Nombre</label>
+        <!-- entrada de datos con texto-->
+        <input type="text" placeholder="primer nombre" required>
+        <br>
+        <!-- segunda linea -->
+
+        <label>Edad  .</label>
+        <!-- entrada de datos numericos -->
+        <input type="number" name="edad" id="" placeholder="años" required min="1" max="110">
+        <br>
+        <!-- tercera linea -->
+
+        <label>E-mail    .</label>
+        <!-- entrada de datos con @ ó correo electronico -->
+        <input type="email" placeholder="correo electronico" required>
+
+        <br>
+
+        <label>Telefono</label>
+        <!-- entrada de datos numericos -->
+        <input type="number" placeholder="casa ó celular">
+        <br>
+        <label for="pasword">contraseña</label>
+        <!-- min y max es para evaluar la longuitud de las entradas -->
+        <input type="pasword" placeholder="pasword" minlenght="3" maxlenght="5" required>
+        <br>
+
+
+        <button>ok</button>
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+h1{
+    background: skyblue;
+    border:  solid 2px blue;
+    border-radius:  25px;
+    text-align: center;
+    margin-left: 30%;
+    width: 40%;
+}
+img{
+    border: solid 3px green;
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
+    border-radius: 15px;
+    
+}
+caption{
+    text-align: center;
+    
+
+}

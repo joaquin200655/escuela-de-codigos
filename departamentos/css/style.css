@@ -1,0 +1,54 @@
+
+body{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.site-header{
+/*propiedades para poner una imagen de fondo*/
+   background-image:  url(../img/header.jpg);
+   /*la imagen tenga la totalidad de la ventana*/
+   /*heigh es altura*/
+   height: 100Vh;
+   
+   /*inicia la pocision de imagen*/
+   background-position: center;
+   /* tamaño de la imagen */
+   background-size: cover;
+}
+.contenedor{
+    /* marca la caja */
+    border: 2px solid cyan;
+   max-height: 1200px;
+   /*para centraar el elemento*/
+   margin: 0 auto 0 auto;
+
+ 
+}
+
+.barra{ border: 2px solid green;
+   /* margen superior */
+   display: flex;
+   /* pantalla flexible  para acomodarse dentro de margin*/
+   justify-content: space-between;
+/* justifica un espacio */
+padding-top: 15px;
+/* baja 15 pixeles desde arriba */
+align-items: center;
+/* centra los items */
+}
+.navegacion a{
+color: rgb(231, 214, 214);
+font-size: 20px;
+text-decoration: none;
+
+}
+.navegacion a:hover{
+   color:rgb(230, 230, 33);
+   font-size: 30px;
+}
+
+.pie-contenedor{
+   border:2px solid rgb(212, 0, 255);
+   margin-top: 30%;
+   color: white;
+
+}

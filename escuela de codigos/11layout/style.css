@@ -1,0 +1,57 @@
+body{
+    background: skyblue
+}
+/* h1{border: 3px solid green;
+    border-radius: 5px;
+    text-align: center;
+    background: skyblue;
+    margin-left: 30%;
+    width: 40%; */
+
+header{
+    border: 2px solid blue;
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    font-size: 35px;
+    color: blue;
+
+}
+nav{
+    border: 2px solid blue;
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    font-size: 35px;
+    color: green;
+
+}
+
+section{
+    border: 2px solid blue;
+    width: 100%;
+    height: 545px;
+    text-align: center; 
+    margin-top: 15px;
+    font-size: 35px;
+    color:brown;
+
+}
+footer{
+    border: 2px solid blue;
+    width: 100%;
+    height: 10vh;
+    text-align: center; 
+    margin-top: 15px; 
+    font-size: 35px;
+    color: green;
+
+}
+.uno{
+    text-align: left;
+
+}
+.tres{
+    text-align: right;
+    
+}

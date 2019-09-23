@@ -1,0 +1,649 @@
+/* ESTILO PARA EL PROEYECTO DEPARTAMENTOS */
+
+/* RECURSOS */
+
+/* PALETA DE COLORES */
+
+/* As hex codes */
+
+.color-primary-0 { color: #777777 }	/* Main Primary color */
+.color-primary-1 { color: #D3D3D3 }
+.color-primary-2 { color: #A3A3A3 }
+.color-primary-3 { color: #434343 }
+.color-primary-4 { color: #040404 }
+
+.color-secondary-1-0 { color: #4F4F4F }	/* Main Secondary color (1) */
+.color-secondary-1-1 { color: #8C8C8C }
+.color-secondary-1-2 { color: #6C6C6C }
+.color-secondary-1-3 { color: #2C2C2C }
+.color-secondary-1-4 { color: #020202 }
+
+.color-secondary-2-0 { color: #757575 }	/* Main Secondary color (2) */
+.color-secondary-2-1 { color: #D1D1D0 }
+.color-secondary-2-2 { color: #A2A2A1 }
+.color-secondary-2-3 { color: #424242 }
+.color-secondary-2-4 { color: #040404 }
+
+
+
+/* As RGBa codes */
+
+.rgba-primary-0 { color: rgba(119,119,119,1) }	/* Main Primary color */
+.rgba-primary-1 { color: rgba(211,211,211,1) }
+.rgba-primary-2 { color: rgba(163,163,163,1) }
+.rgba-primary-3 { color: rgba( 67, 67, 67,1) }
+.rgba-primary-4 { color: rgba(  4,  4,  4,1) }
+
+.rgba-secondary-1-0 { color: rgba( 79, 79, 79,1) }	/* Main Secondary color (1) */
+.rgba-secondary-1-1 { color: rgba(140,140,140,1) }
+.rgba-secondary-1-2 { color: rgba(108,108,108,1) }
+.rgba-secondary-1-3 { color: rgba( 44, 44, 44,1) }
+.rgba-secondary-1-4 { color: rgba(  2,  2,  2,1) }
+
+.rgba-secondary-2-0 { color: rgba(117,117,117,1) }	/* Main Secondary color (2) */
+.rgba-secondary-2-1 { color: rgba(209,209,208,1) }
+.rgba-secondary-2-2 { color: rgba(162,162,161,1) }
+.rgba-secondary-2-3 { color: rgba( 66, 66, 66,1) }
+.rgba-secondary-2-4 { color: rgba(  4,  4,  4,1) }
+
+
+/* FUENTES */
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+
+/* GENERALES */
+body{
+    /*  asigando la */
+   font-family: 'Roboto', sans-serif;
+}
+
+
+/* PARTICULARES */
+
+/* HEADER */
+
+/* estilo del header con el id cabecera */
+#cabecera{
+    /* borde de 2px de ancho punteado  */
+    /* border: 2px dotted greenyellow; */
+    /* altura = al total de la pantalla */
+    /* height: 100vh; */
+    
+}
+
+
+/*  */
+.inicio{
+    /* ../ para que sirve y la doferencia con ./ y / */
+    /* llamando a la imagen */
+    background-image: url(../img/header.jpg); 
+    /* todo el alto de la pantalla */
+    height: 100vh;
+    /* centrando la imagen */
+    background-position: center;
+    /* medidad de img */
+    background-size: cover;
+}
+
+/*  */
+.contenedor{
+    /* border: 2px solid rgb(219, 13, 192); */
+    /*  */
+    max-width: 1200px;
+    /* height: 80vh; */
+    /* top right bottom  left*/
+    margin: 0 auto 0 auto;
+    
+}
+
+.barra{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+/* herencia padre y el hijo */
+.navegacion a{
+    /*  */
+    color: #fff;
+    /*  */
+    text-decoration: none;
+    /*  */
+    font-family: 'Lato', sans-serif;
+    /*  */
+    font-size: 15px;
+    /*  */
+    margin-left: 10px;
+    
+}
+
+/* pseudoselector */
+.navegacion a:hover{
+    /*  */
+    font-size: 18px;
+    /*  */
+    color: gold;
+}
+
+.contenido-header{
+    height: 100%;
+    display: flex;
+    color: #fff;
+
+    /*  */
+    flex-direction: column;
+    /*  */
+    justify-content: space-between;
+
+}
+
+.footer-header{
+    margin-left: 20px;
+}
+
+ /* ICONOS */
+/* estilo para section de iconos  */
+#iconos{
+    /* dashet propiedad de aspecto en los bordes */
+    /* border: 2px dashed rgb(255, 47, 238); */
+    /* el 60$ de la altura total de una pantalla  */
+    /* height:60vh; */
+}
+
+.titulo{
+    text-align: center;
+}
+
+.iconos-nosotros{
+    /* border: 2px dotted rgb(32, 204, 10); */
+    /*  */
+    display: flex;
+    /*  */
+    justify-content: space-around;
+}
+
+.icono{
+    /* border: 2px dotted rgb(204, 97, 10); */
+    text-align: center;
+    /*  */
+    flex-basis: calc(33.3% - 2rem);
+}
+
+.icono p{
+    text-align: justify;
+}
+
+.icono h3:hover{
+    font-size: 30px;
+}
+
+
+/* MAIN */
+/*  */
+#principal{
+    /*  */
+    /* border: 2px solid cyan;  */
+    /*  */
+    /* height: 100vh; */
+}
+
+.slider{
+    /*  */
+    width: 95%;
+    /*  */
+    margin: auto;
+    /*  */
+    overflow: hidden;
+}
+
+.slider ul{
+    /*  */
+    display: flex;
+    /*  */
+    padding: 0;
+    /*  */
+    width: 300%;
+    /* TODO aqui va la animación */
+
+    /*  */
+    animation: cambio 20s infinite alternate linear ;
+
+}
+
+.slider li{
+    /*  */
+    width: 100%;
+    /*  */
+    list-style: none;
+}
+
+.slider .card{
+    /*  */
+    background-color: #191B26;
+    /*  */
+    /* border: solid 3px gold; */
+    /*  */
+    border-bottom-left-radius: 200px;
+    /*  */
+    border: 5px solid #fff;
+
+}
+
+
+.slider .card-body{
+    /*  */
+    border: 5px solid #fff;
+    /*  */
+    display: flex;
+    /*  */
+    border: 3px solid gold;
+     /*  */
+    border-bottom-left-radius: 200px;
+    /*  */
+    justify-content: space-around;
+    /*  */
+    align-items: center;
+}
+
+.slider img{
+    /*  */
+    width: 100%;
+    /*  */
+    height: 60vh;
+}
+
+.detalles{
+    /*  */
+    color: #fff;
+    /*  */
+    padding: 20px;
+    /*  */
+    margin-left: 10%
+
+}
+
+/*  */
+.opaco{
+    /*  */
+    color: #4F4F4F;
+}
+
+.boton{
+    /*  */
+    width: 120px;
+    /*  */
+    height: 120px;
+    /*  */
+    border: 3px solid gold;
+    /*  */
+    text-align: center;
+    /*  */
+    background-color:#191B26;
+    /*  */
+    border-radius: 15px;
+    
+
+}
+
+a{
+    /*  */
+    margin-top: 5px;
+    /*  */
+    color: #fff;
+    /*  */
+    text-decoration: none;
+
+}
+
+.boton img{
+    /*  */
+    width: 100px;
+    /*  */
+    height: 80px;
+
+}
+
+.centro{
+    /*  */
+    width: 40%;
+    /*  */
+    margin-left: 30%;
+    /*  */
+    border: solid 3px gold;
+    /*  */
+    background: #191B26;
+    /*  */
+    border-radius: 15px;
+    /*  */
+    text-align: center;
+    /*  */
+    height: auto;
+}
+
+.centro img{
+
+    width: 100px;
+    height: 100px;
+}
+/*  */
+@keyframes cambio{
+
+    /*  */
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    /*  */
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    /*  */
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    /*  */
+    75%{margin-left: 0;}
+    100%{margin-left: 0;}
+
+
+}
+
+/* CONTACTO */
+
+/*  */
+#contacto{
+    /*  */
+    border: 2px dotted rgb(223, 209, 17); 
+    /*  */
+    height: 50vh;
+}
+
+/* IMPORTANTE EL DIA MARTES 27/08/2019 REALIZAMOS CAMBIOS EN EL FORMULARIO DE CONTACTO DESDE LA LINEA 370 */
+
+.datos{
+
+    /*  */
+    margin-top:5%;
+    /*  */
+    width: 90%;
+    /*  */
+    margin-left: 5%;
+    /*  */
+    display: flex;
+    /*  */
+    flex-direction: column;
+
+}
+
+.card{
+    /*  */
+    background-color:#191B26;
+    /*  */
+    border-radius: 15px;
+    /*  */
+    border:3px solid gold;
+}
+
+.card .card-header{
+
+    /*  */
+    text-align: center;
+    /*  */
+    padding: 15px;
+}
+
+.card .card-header .card-title{
+    /*  */
+    color: #fff;
+    /*  */
+    font-size: 1.5em;
+    /*  */
+    padding-bottom: 15px;
+    /*  */
+    margin: 15px auto;
+    /*  */
+    border-bottom: 2px solid #ff5a5f;
+    /*  */
+    width: 90%;
+}
+
+form{
+    /*  */
+    display: flex;
+    /*  */
+    flex-direction: column;
+    /*  */
+    padding: 0 35px 25px;   
+}
+
+form .input{
+    /*  */
+    border:none;
+    /*  */
+    outline: none;
+    /*  */
+    display: block;
+    /*  */
+    color: #fff;
+    /*  */
+    background-color: #191B26;
+    /*  */
+    padding: 10px 0 25px 0;
+    /*  */
+    border-bottom: 1px solid #6C6C6C;
+    /*  */
+    margin: 10px 0;
+    /* La propiedad transition es una propiedad Permite definir la transición entre dos estados de un elemento. Hay diferentes estados que pueden ser definidos utilizando pseudo-clases como :hover  */
+    transition: all 0.5s;
+
+
+}
+
+/* La pseudo-clase :focus CSS representa un elemento (como una entrada de formulario) que ha recibido el foco. Generalmente se activa cuando el usuario hace clic, toca un elemento o lo selecciona con la tecla "Tab" del teclado. */
+
+form .input:focus{
+    /*  */
+    padding: 10px 0 40px 0;
+ 
+}
+
+/* para visualizar en todos los navegadores Webkit es un motor para navegadores de Código abierto, muchos navegadores actuales lo usan como base */
+/* La pseudo-clase :focus CSS representa un elemento (como una entrada de formulario) que ha recibido el foco. Generalmente se activa cuando el usuario hace clic, toca un elemento o lo selecciona con la tecla "Tab" del teclado. */
+form .input:focus::-webkit-input-placeholder{
+  color: white;
+}
+  
+form .btn{
+    /* alineacion en patalla en bloque */
+    display: inline-block;
+    /*  */
+    background-color: #ff5a5f;
+    /*  */
+    color: #fff;
+    /*  */
+    border: none;
+    /*  */
+    border-radius: 2px;
+    /*  */
+    padding: 15px;
+    /*  */
+    margin-top: 25px;
+    /* alinearse */
+    /* La propiedad CSS align-self alinea los elementos flexibles de la línea flexible actual, reemplazando el valor de align-items. Si el límite transversal de alguno de los elementos está definido como auto, el valor de align-self es ignorado. */
+    align-self: flex-end;
+
+    /* La propiedad CSS:cursor especifica el tipo de cursor que se mostrara cuando este se encuentre sobre un elemento */
+    /* cursor usado cuando se pasa sobre enlaces (típicamente una mano) */
+    cursor: pointer;
+    
+}
+
+form .btn:hover {
+    background-color: #d8191f;
+}
+
+
+/* -------------------------------------------------------------------------------- */
+ /* BLOG */
+#blog{
+    
+        /*  */
+        /* border: 2px solid rgb(219, 4, 173);  */
+        margin-top: 3%;
+        /*  */
+        height: 100vh;
+        /* ancho */
+        width: 60%;
+        /* float */
+        float: left;
+        display: flex;
+        /* flex-flow: row wrap; */
+        position: relative;
+        margin-bottom: 2%;
+    
+}
+.container{
+    /* text-align: center; */
+    overflow: hidden;
+    /* position: relative; */
+}
+
+.caja-blog{
+    /* width: 60%; */
+    border: 2px solid grey;
+    height: 25vh;
+    background-color: #020202;
+    width: 100%;
+    transition: all 2s;
+    position: relative;
+    text-align: center;
+
+
+
+}
+.caja-blog img{
+    /* apariencia de las imagenes; */
+    width: 100%;
+    height: 25vh;
+    opacity: .2;
+    transition: 2s;
+}
+.caja-blog img:hover{
+    /* apariencia de las imagenes */
+   
+    height: 75vh;
+    opacity: 1;
+
+}
+.caja-blog:hover{
+    height: 75vh;
+}
+
+
+p#headline{
+    position: absolute;
+    font-size: 1.5rem;
+    margin-left: -200%;
+    color: #fff;
+    top: 10%;
+    left:10%;
+    transition: margin-left 1.5s;
+}
+
+p#descripcion{
+    position: absolute;
+    font-size: 1rem;
+    color: cyan;
+    margin-left: 2%;
+    transition: margin-top 1.5s;
+    margin-top: 300px;  
+
+}
+.caja-blog:hover p#headline{
+    margin-left: 10%;
+}
+
+.caja-blog:hover p#descripcion{
+    margin-top: 100px;
+}
+
+
+.text-blog{
+    position: absolute;
+    color: white;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 1em;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    font-size: 4em;
+    
+    font-family: 'Oswald', sans-serif;
+    
+}
+.text-blog:hover{
+    color: gold;
+    letter-spacing: .2em;
+    text-shadow: 1px 1px 8px #8C8C8C, 0 0 3px orange , 0 0 1px #757575;
+    transition: 2s;
+}
+
+
+/* TESTIMONIALES */
+
+#comentarios{
+    margin-top: 3%;
+    /*  */
+    /* border: 2px solid rgb(4, 219, 4);  */
+    /*  */
+    height: 100vh;
+    /* ancho */
+    width: 30%;
+    /*  */
+    float: right;
+
+    /* margin-left: 70% */
+}
+.comentario{
+    background: #191B26;
+    width: 95%;
+    border-radius: 20px;
+    color: #fff;
+    margin: 5px;
+    padding: 5px;
+    border: 4px dashed gold;
+}
+.user{
+    text-align: right;
+}
+
+
+#pie{
+    /* borrando  */
+    clear: both;
+    /*  */
+    /* border: 2px solid rgb(16, 211, 236);  */
+    /*  */
+    height: 15vh;
+    display: flex;
+    background: #191b26;
+    padding: 15px;
+    
+    justify-content: center;
+    
+    
+
+}
+
+

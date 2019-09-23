@@ -1,0 +1,62 @@
+/* ctrl+}  comentarios */
+/* selector por elementos  */
+h1{
+  font-size: 50px;
+  background: black;
+  color: white;  
+  /* tamaño de la etiqueta */
+  width: 60%;
+
+  /* margen izquierdo */
+  margin-left: 20%;
+
+/* pocicion del texto */
+  text-align: center;
+
+  /* radio de los bordes */
+  border-radius: 30px;
+}
+/* selector por id */
+#joa{
+    background: cyan;
+    color: blue;
+    text-align: center;
+    font-size: 20px;
+    width: 60%;
+    margin-left: 20%;
+
+}
+/* selector por clase */
+.clasejoa{
+    background: pink;
+    color: brown;
+    
+    text-align: center;
+    font-size: 20px;
+    width: 60%;
+    margin-left: 20%;
+
+}
+#joe{
+  background: greenyellow;
+    color: green;   
+    font-size: 20px;
+    width: 33%;
+    
+}
+#jou{
+
+background: pink;
+    color: brown;
+    text-align: right;
+    font-size: 20px;
+    width: 33%;
+  
+}
+h3{
+  text-align: center;
+  background: green;
+  width: 60%;
+  margin-left: 20%;
+  
+}

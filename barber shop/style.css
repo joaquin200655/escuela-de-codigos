@@ -1,0 +1,100 @@
+body{
+    background:  white;
+
+
+}
+h1{
+    text-align: center; 
+    font-style: georgia;
+    color: red;
+    font-size: 40px;
+}
+    
+header{
+    text-align: center;
+     /* border: 2px solid red; */
+}
+nav{
+    margin-top: 5px;
+    text-align: center;
+    /* border: 2px solid red; */
+    border: 4px solid orangered;
+    border-radius: 8px;
+    margin-left: 35%;
+    width: 30%;
+    background: orangered;
+    color: white;
+    
+}
+aside{
+    margin-top: 5px;
+    text-align: center;
+    /* border: 2px solid red; */
+    font-style: georgia;
+    height: 430px;
+    width: 25%;
+    float: left;
+    margin-bottom: 5px;
+    border-image: 10px;
+    border-radius: 15px;
+    
+}
+div{
+    text-align: center;
+}
+section{
+    text-align: center;
+    margin-top: 5px;
+    /* border: 2px solid red; */
+    height: 430px;
+    width: 73%;
+    float: left;
+    margin-bottom: 5px;
+    border-image: 10px ;
+    border-radius: 15px;
+   
+}
+section img{
+    width: 100%;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+p ul{
+    list-style: none;
+}
+
+footer{
+    margin-top: 450px;
+    text-align: center;
+    /* border: 2px solid red; */
+    font-style: georgia;
+    height: 10%;
+    width: 100%;
+    color: green;
+    font-size: 35px;
+}
+li{
+    font-size: 35px;
+    text-align: center;
+    color: blue;
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    background-image: cover;
+    border-image-width: cover;
+}
+a:hover{
+    color: green;
+   font-style: georgia;
+   font-size: 35px;
+
+
+}
+li:hover{
+    color: green;
+    font-size: 35px ;
+}

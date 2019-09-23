@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>practica de formulas</title>
+</head>
+
+<body>
+  <h1>formulario</h1>
+  <form action="">
+    <label for="">Nombre</label>
+    <input type="text" required placeholder="nombre y apellido">
+    <br>
+
+    <label for="">Edad</label>
+    <input type="number" required placeholder="años" minlength="15" maxlength="110">
+    <br>
+
+    <label for="">Direccion</label>
+    <input type="text" required placeholder="calle y numero">
+    <br>
+
+    <label for="">Escolaridad</label>
+    <input type="text" required placeholder="maximo grado">
+    <br>
+
+    <label for="">Email</label>
+    <input type="email" placeholder="correo electronico">
+    <br>
+
+    <label for="">Sueldo</label>
+    <input type="number" required placeholder="pretenciones">
+    <br>
+
+    <button>ok</button>
+  </form>
+  <hr>
+
+  <h2>check-box</h2>
+  <form>
+    <!-- ul>li*5>input:checkbox>label>{texto} -->
+    <!-- el  checked sirbe para que aparesca seleccionado -->
+    <ul>
+      <li><input type="checkbox" name="nombre" id="nombre"><label for="">nombre</label></li>
+      <li><input type="checkbox" name="edad" id="edad"><label for="">edad</label></li>
+      <li><input type="checkbox" name="direccion" id="direccion"><label for="">direccion</label></li>
+      <li><input type="checkbox" name="escolaridad" id="escolaridad"><label for="">escolaridad</label></li>
+      <li><input type="checkbox" name="email" id="email" checked><label for="">email</label></li>
+
+    </ul>
+
+  </form>
+
+  <hr>
+  <form>
+    <!-- ul>li*3>input:radio>label>{texto} -->
+    <ul>
+      <li><input type="radio" name="masculino" id="masculino" value="masculino"><label for="masculino">masculino</label></li>
+
+      <li><input type="radio" name="femenino" id="femenino" value="femenino"><label for="">femenino</label></li>
+
+      <li><input type="radio" name="otro" id="otro"value="otro" disabled="otro"><label for="otro">otro</label></li>
+
+    </ul>
+  </form>
+
+</body>
+
+</html>

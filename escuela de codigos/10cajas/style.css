@@ -1,0 +1,53 @@
+h1{
+    border: 3px solid green;
+    border-radius: 5px;
+    text-align: center;
+    background: skyblue;
+    margin-left: 30%;
+    width: 40%;
+
+
+}
+body{
+    background: yellow;
+}
+
+.caja{
+    border: 2px solid yellowgreen;
+    width: 30%;
+    height: 400px;
+    float: left;
+    margin-left: 1%;
+    
+
+}
+.principal{
+    border: solid 3px green;
+    width: 100%;
+    height: 200px;
+
+
+}
+/* caja con propiedades flotantes "float" */
+.secundaria{
+    border: solid 3px yellowgreen;
+    width: 31%;
+    height: 186px;
+    margin: 5px;
+    float: left;
+}
+
+.tercera{
+    border: solid 3px green;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.cuarta{
+    margin: 5px;
+    border: 2px solid mediumseagreen;
+    width: 30%;
+    /* view port */
+    height: 50vh;
+}
