@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+
+}
+h2{
+    text-align: center;
+
+}
+nav{
+    text-align: center;
+    text-shadow: gold 2 3 2 0;
+    
+}
+nav:hover{
+    color:gold;
+    text-shadow: skyblue 2 3 2 0;
+
+}

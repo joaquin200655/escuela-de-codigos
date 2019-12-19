@@ -1,0 +1,47 @@
+/* body{
+    background-color: skyblue;  
+} */
+h1{
+     text-align: center;
+}
+h1 img{
+    width: 40px;
+}
+h2{  
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+a{
+    text-align: center;
+    text-shadow: gold 2 3 2 0;
+    
+}
+nav img{
+    width: 40px;
+}
+.card-body img{
+    width: 95%;
+    height:45vh;
+}
+nav a:hover{
+    color: grey;
+    shadow: 2 3 2 0 gold;
+}
+section p{
+    text-align: center;
+}
+#contacto{
+    background: grey;
+
+}
+/* .card-body form{
+    background: grey; */
+
+}
+.card-body form input:hover{
+    background: rgb(233, 227, 227);
+
+   
+}
